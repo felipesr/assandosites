@@ -1,0 +1,149 @@
+
+/* ------------------------------
+GERAL (inicio)
+------------------------------ */
+
+body {
+	font-family: Tahoma, Helvetica, lucida sans unicode, Verdana, Arial, sans-serif; 
+	font-weight:400;
+	font-size: 14px;
+	line-height:20px;
+	color:#555;
+	text-decoration: none;
+}
+
+/* a:link........define o estilo do link no estado inicial; */ 
+a:link {
+	color:#F58634;
+	text-decoration:none;
+}
+
+/* a:visited...define o estilo do link visitado; */ 
+a:visited {
+	color:#F58634;
+	text-decoration:none;
+}
+
+/* a:hover.....define o estilo do link quando passa-se o mouse sobre ele; */ 
+a:hover {
+	color:#FC0;
+	text-decoration:none;
+}
+
+/* a:active....define o estilo do link ativo (o que foi "clicado"). */ 
+a:active {
+	color:#FC0;
+	text-decoration:none;
+}
+
+h1 {
+	color:#F58634;
+	font-size:20px;
+}
+
+
+/* ------------------------------
+GERAL (fim)
+------------------------------ */
+
+
+
+/* ------------------------------
+CABECALHO (inicio)
+------------------------------ */
+
+#header {
+	height:60px;
+	width:100%;
+    margin-left: auto;
+    margin-right: auto;
+	padding:15px 0 0 0;
+	background-color:#eee; 
+	text-align:center;
+	}
+
+/* ------------------------------
+CABECALHO (fim)
+------------------------------ */
+
+
+
+/* ------------------------------
+MENU (inicio)
+------------------------------ */
+
+ul.tabs {
+	display: table;
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	position: relative;
+	}
+
+ul.tabs li {
+	list-style: none;
+	display: table-cell;
+	float: left;
+	position: relative;
+	padding-right:17px;
+	padding-left:17px;
+	}
+
+#menu {
+	left:0;
+	width:100%;
+	height:30px;
+	font-weight:normal;
+    margin-left: auto;
+    margin-right: auto;
+	padding:7px 0 0 0;
+	background-color:#ccc; 
+	}
+
+#menu ul {
+	margin: 0 auto;
+	}
+
+/* ------------------------------
+MENU (fim)
+------------------------------ */
+
+
+
+/* ------------------------------
+CONTEUDO (inicio)
+------------------------------ */
+
+#contents {
+	width:100%;	
+	padding:20px;
+    margin-left: auto;
+    margin-right: auto;
+	border:0px solid #333;
+	text-align:center;
+	}
+	
+/* ------------------------------
+CONTEUDO (fim)
+------------------------------ */
+
+
+
+/* ------------------------------
+RODAPE (inicio)
+------------------------------ */
+
+#footer {
+	height:55px;
+	width:100%;
+    margin-left: auto;
+    margin-right: auto;
+	padding:30px 0 0 0;
+	background-color:#777; 
+	text-align:center;
+	color:#fff;
+	}
+
+/* ------------------------------
+RODAPE (fim)
+------------------------------ */

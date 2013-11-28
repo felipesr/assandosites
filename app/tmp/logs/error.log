@@ -1,0 +1,141 @@
+2013-11-26 11:17:10 Error: [MissingControllerException] Controller class SobrewController could not be found.
+Exception Attributes: array (
+  'class' => 'SobrewController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/sobrew
+Stack Trace:
+#0 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-26 11:17:10 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/css/estilo.css
+Stack Trace:
+#0 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-26 11:17:14 Error: [MissingControllerException] Controller class SobreController could not be found.
+Exception Attributes: array (
+  'class' => 'SobreController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/sobre
+Stack Trace:
+#0 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-26 11:17:14 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/css/estilo.css
+Stack Trace:
+#0 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-26 11:17:22 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/css/estilo.css
+Stack Trace:
+#0 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-26 11:17:26 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/css/estilo.css
+Stack Trace:
+#0 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-26 11:17:36 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/css/estilo.css
+Stack Trace:
+#0 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-26 11:17:44 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/css/estilo.css
+Stack Trace:
+#0 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-26 14:26:40 Error: [MissingControllerException] Controller class CssController could not be found.
+Exception Attributes: array (
+  'class' => 'CssController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/css/estilo.css
+Stack Trace:
+#0 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-26 14:38:44 Error: [MissingControllerException] Controller class SobreController could not be found.
+Exception Attributes: array (
+  'class' => 'SobreController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/sobre
+Stack Trace:
+#0 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-26 14:38:47 Error: [MissingControllerException] Controller class Sobre2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Sobre2Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/sobre2
+Stack Trace:
+#0 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-26 14:38:53 Error: [MissingControllerException] Controller class Sobre-o-cursoController could not be found.
+Exception Attributes: array (
+  'class' => 'Sobre-o-cursoController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/sobre-o-curso
+Stack Trace:
+#0 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-26 14:41:07 Error: [MissingControllerException] Controller class Sobre-o-evento2Controller could not be found.
+Exception Attributes: array (
+  'class' => 'Sobre-o-evento2Controller',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/sobre-o-evento2
+Stack Trace:
+#0 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-11-26 14:46:04 Error: [MissingViewException] View file "/var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/View/Pages/sobre-o-evento.ctp" is missing.
+Exception Attributes: array (
+  'file' => '/var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/View/Pages/sobre-o-evento.ctp',
+)
+Request URL: /cakephp/pagina/sobre-o-evento
+Stack Trace:
+#0 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/lib/Cake/View/View.php(459): View->_getViewFileName('sobre-o-evento')
+#1 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/lib/Cake/Controller/Controller.php(952): View->render('sobre-o-evento', NULL)
+#2 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/Controller/PagesController.php(70): Controller->render('sobre-o-evento')
+#3 [internal function]: PagesController->display('sobre-o-evento')
+#4 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/lib/Cake/Controller/Controller.php(490): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/lib/Cake/Routing/Dispatcher.php(187): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/lib/Cake/Routing/Dispatcher.php(162): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2013-11-26 15:09:52 Error: [MissingControllerException] Controller class SobreController could not be found.
+Exception Attributes: array (
+  'class' => 'SobreController',
+  'plugin' => NULL,
+)
+Request URL: /cakephp/sobre
+Stack Trace:
+#0 /var/www/vhosts/affittomedical.com.br/httpdocs/cakephp/app/webroot/index.php(110): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
