@@ -37,6 +37,9 @@
 	Router::connect('/saiba-mais-sobre-o-evento', array('controller' => 'pages', 'action' => 'display', 'sobre'));
 	
 	Router::connect('/como-chegar', array('controller' => 'pages', 'action' => 'display', 'mapa'));
+
+	Router::connect('/inscreva-se', array('controller' => 'Inscricoes', 'action' => 'inscrever', 'inscreva-se'));
+
 /**
  * Load all plugin routes. See the CakePlugin documentation on
  * how to customize the loading of plugin routes.
