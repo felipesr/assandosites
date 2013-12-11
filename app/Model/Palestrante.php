@@ -1,0 +1,28 @@
+<?php
+	class Palestrante extends AppModel {
+        public $useTable = 'palestrantes';
+        public $order = array('nome' => 'ASC');
+        public $displayField = 'nome';
+		public $hasMany = array('Palestra');
+
+		public $validate = array(
+
+			'nome' => array(
+				'rule' => 'notEmpty', // Não vazio
+				'message' => 'Preencha o nome'
+			),
+
+			'descricao' => array(
+				'rule' => 'notEmpty', // Não vazio
+				'message' => 'Preencha descrição'
+			),
+
+			'url' => array(
+				'rule' => 'url', // Não vazio
+				'message' => 'Preencha a URL corretamente'
+			)
+
+		);
+
+	}
+?>
