@@ -1,7 +1,7 @@
 <?php
 	class Palestra extends AppModel {
         public $useTable = 'palestras';
-        public $order = array('nome' => 'ASC');
+        public $order = array('inicio' => 'ASC');
         public $displayField = 'nome';
 		public $belongsTo = array('Palestrante');
 

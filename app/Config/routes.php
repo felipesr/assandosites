@@ -44,7 +44,7 @@
 	Router::connect('/palestra_lista', array('controller' => 'palestras', 'action' => 'listar'));
 	Router::connect('/palestra_edit/:id', array('controller' => 'palestras', 'action' => 'edit'),
 		array(
-			'id' => '[0-9]+'
+			'pass' => array('id'), // Passa o ID pra action
 	));
 	
 	Router::connect('/palestrante_inscrever', array('controller' => 'palestrantes', 'action' => 'inscrever'));
