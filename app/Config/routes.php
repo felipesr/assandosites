@@ -38,7 +38,26 @@
 	
 	Router::connect('/como-chegar', array('controller' => 'pages', 'action' => 'display', 'mapa'));
 
-	Router::connect('/inscreva-se', array('controller' => 'Inscricoes', 'action' => 'inscrever', 'inscreva-se'));
+	Router::connect('/inscreva-se', array('controller' => 'inscricoes', 'action' => 'inscrever'));
+
+	Router::connect('/palestra_inscrever', array('controller' => 'palestras', 'action' => 'inscrever'));
+	Router::connect('/palestra_lista', array('controller' => 'palestras', 'action' => 'listar'));
+	Router::connect('/palestra_edit/:id', array('controller' => 'palestras', 'action' => 'edit'),
+		array(
+			'id' => '[0-9]+'
+	));
+	
+	Router::connect('/palestrante_inscrever', array('controller' => 'palestrantes', 'action' => 'inscrever'));
+	Router::connect('/palestrante_lista', array('controller' => 'palestrantes', 'action' => 'listar'));
+
+	Router::connect('/palestrante/:nome/:id', array('controller' => 'palestrantes', 'action' => 'view'),
+		array(
+			'pass' => array('id'), // Passa o ID pra action
+			'nome' => '[a-z0-9-]+',
+			'id' => '[0-9]+'
+	));
+
+
 
 /**
  * Load all plugin routes. See the CakePlugin documentation on

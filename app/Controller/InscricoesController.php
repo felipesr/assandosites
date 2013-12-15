@@ -16,12 +16,15 @@ class InscricoesController extends AppController {
 			if ($this->Inscricao->save($this->request->data)) {
 			// Registro inserido com sucesso!
 			//echo "Registro inserido com sucesso!";
-			$this->redirect(array('controller' => 'pages', 'action' => 'display', 'cadastro_ok'));
+			$destino = array('controller' => 'pages', 'action' => 'display', 'cadastro_ok');
+			$this->redirect($destino);
+			} else {
+			var_dump($this->Inscricao->invalidFields());
 			}
+		} else {
+		var_dump($isPost, $this->request->data);
 		}
-
 	}
 }
-
 
 ?>
