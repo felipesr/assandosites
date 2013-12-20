@@ -42,6 +42,13 @@
 
 	Router::connect('/palestra_inscrever', array('controller' => 'palestras', 'action' => 'inscrever'));
 	Router::connect('/palestra_lista', array('controller' => 'palestras', 'action' => 'listar'));
+
+
+	/**/
+	Router::connect('/palestra_selecionar2', array('controller' => 'palestrantes', 'action' => 'exemplo'));
+	Router::connect('/palestra_selecionar', array('controller' => 'palestras', 'action' => 'selecionar'));
+	/**/
+
 	Router::connect('/palestra_edit/:id', array('controller' => 'palestras', 'action' => 'edit'),
 		array(
 			'pass' => array('id'), // Passa o ID pra action

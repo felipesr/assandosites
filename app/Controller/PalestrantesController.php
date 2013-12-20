@@ -42,6 +42,21 @@ class PalestrantesController extends AppController {
 		$this->set('palestrante', $dados);
 	}
 
+	/*public function exemplo() {
+		$selecao = $this->Palestrante->find('list');
+		$this->set('selecao_palestrante', $selecao);
+	}*/
+	/*
+	public function exemplo() {
+
+		$params2 = array(
+			'fields' => array('Palestrante.id'),
+			'order' => array('Palestrante.id')
+		);
+		$selecao = $this->Palestrante->find('all', $params2);
+		// Manda para a View
+		$this->set('selecao', $selecao);
+	}*/
 
 }
 

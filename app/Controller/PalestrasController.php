@@ -26,6 +26,7 @@ class PalestrasController extends AppController {
 		}
 	}
 
+
 	public function listar() { // Busca todas as notícias
 		$params = array(
 			'fields' => array('Palestra.nome', 'Palestra.inicio', 'Palestra.fim', 'Palestra.descricao'),
@@ -35,6 +36,7 @@ class PalestrasController extends AppController {
 		// Manda para a View
 		$this->set('palestras', $palestras);
 	}
+
 
 	public function edit($id = null) {
 		$this->Palestra->id = $id; 
@@ -50,6 +52,19 @@ class PalestrasController extends AppController {
 			$this->request->data = $this->Palestra->read();
 			}
 	}
+
+
+	public function selecionar() {
+
+		$params2 = array(
+			'fields' => array('Palestra.id'),
+			'order' => array('Palestra.id')
+		);
+		$selecao = $this->Palestra->find('all', $params2);
+		// Manda para a View
+		$this->set('selecao', $selecao);
+	}
+
 
 }
 
